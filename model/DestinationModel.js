@@ -9,6 +9,8 @@ const Destination = db.define(
         pricerange : DataTypes.FLOAT,
         time : DataTypes.TIME,
         category : DataTypes.STRING,
+        latitude : DataTypes.DOUBLE,
+        longitude : DataTypes.DOUBLE
     }
 )
 
