@@ -1,0 +1,54 @@
+###
+GET http://localhost:5000/review
+
+###
+POST http://localhost:5000/review
+Content-Type: application/json
+
+{
+    "name":"brown sugar coffee",
+    "location":"Fore dipatiukur",
+    "price": 24000,
+    "review": "jujur bgt nih gaenak",
+    "image":"",
+    "category":"coffee",
+    "recommended":true
+}
+
+###
+PATCH http://localhost:5000/review/1
+Content-Type: application/json
+
+{
+    "title":"iphone 13",
+    "price": 1300000,
+    "desc": "FINALLY UDAH DAPET",
+    "image":"",
+    "category":"Electronic",
+    "priority":"Low",
+    "acquired":true
+}
+
+###
+DELETE  http://localhost:5000/review/1
+
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "username":"satya",
+    "password": "meongg"
+  
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username":"satya",
+    "password": "meongg"
+  
+}
