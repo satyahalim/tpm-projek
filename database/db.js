@@ -1,8 +1,8 @@
 import { Sequelize } from "sequelize";
 const DB_NAME = "projektpm"
 const DB_USERNAME = "root"
-const DB_PASSWORD = "akbar"
-const DB_HOST = "34.136.132.0"
+const DB_PASSWORD = ""
+const DB_HOST = "34.121.207.36"
 //const DB_HOST = "localhost"
 const db = new Sequelize(
   DB_NAME,
